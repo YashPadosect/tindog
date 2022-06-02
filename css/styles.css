@@ -5,6 +5,11 @@ body {
 #title {
     background-color: #FF4C68;
     color: floralwhite;
+    /* position: inherit; */
+    /* z-index: 1; */
+    /* height: 690px; */
+    /* height: 34%; */
+    /* max-height: 45em; */
 }
 
 .container-fluid {
@@ -66,13 +71,23 @@ h1 {
 
 .rotate {
     transform: rotate(25deg);
-    width: 60%;
-    padding-top: 9%;
-    padding-right: 9%;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 2%;
+    /* padding-top: 9%; */
+    /* padding-right: 9%; */
+    /* z-index: -1; */
+}
+
+.phone-image {
+    max-width: 60%;
 }
 
 #features {
     padding: 7% 13%;
+    background-color: floralwhite;
+    position: relative;
+    z-index: 1;
 }
 
 
@@ -80,8 +95,8 @@ h1 {
 
 .fa-solid {
     color: #EF8172;
-    min-width: 178px;
-    margin: auto;
+    /* min-width: 178px; */
+    /* margin: auto; */
 }
 
 .fa-solid:hover {
@@ -114,10 +129,13 @@ h1 {
 }
 
 #testimonials {
-    padding: 7% 13%;
     text-align: center;
     background-color: #EF8172;
     color: floralwhite;
+}
+
+.carousel-item {
+    padding: 7% 13%;
 }
 
 .testi-title {
@@ -142,4 +160,58 @@ h1 {
 .press-image {
     width: 13%;
     margin: 20px 30px 50px;
+}
+
+#pricing {
+    background-color: floralwhite;
+    padding: 7% 13%;
+    /* padding: 100px; */
+    text-align: center;
+}
+
+li {
+    line-height: 1.5em;
+}
+
+
+/* 
+.btn-outline-dark {
+    color: #FF4C68;
+    border: #FF4C68;
+    border-color: #FF4C68;
+} */
+
+.btn-outline-dark:hover {
+    color: floralwhite;
+    background-color: #FF4C68;
+}
+
+.btn-dark:hover {
+    color: floralwhite;
+    background-color: #FF4C68;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+#cta {
+    padding: 7% 13%;
+    text-align: center;
+    background-color: #FF4C68;
+}
+
+#footer {
+    color: floralwhite;
+    padding-bottom: 2%;
+    margin: auto;
+}
+
+.final-text {
+    /* margin: auto; */
+    text-align: end;
+    padding-top: 4%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-right: 1%;
 }
