@@ -71,9 +71,6 @@ h1 {
 
 .rotate {
     transform: rotate(25deg);
-    position: absolute;
-    margin-left: 40%;
-    margin-top: 2%;
     /* padding-top: 9%; */
     /* padding-right: 9%; */
     /* z-index: -1; */
@@ -81,6 +78,9 @@ h1 {
 
 .phone-image {
     max-width: 60%;
+      position: absolute;
+    margin-left: 40%;
+    margin-top: 2%;
 }
 
 #features {
