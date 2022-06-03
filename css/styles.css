@@ -39,10 +39,6 @@ h1 {
     font-weight: bold;
 }
 
-.cont1 {
-    padding-left: 2%;
-}
-
 
 /* .logo {
     font-size: xx-large;
@@ -69,25 +65,66 @@ h1 {
     padding: 2% 4%;
 }
 
-.rotate {
+
+/* cont1 for div 1 of left side, rotate for div 2 of right, phone-image for that fuckin image */
+
+
+/* .cont1 {
+    padding-left: 2%;
+}
+
+.rotate {   
     transform: rotate(25deg);
-    /* padding-top: 9%; */
-    /* padding-right: 9%; */
-    /* z-index: -1; */
+    padding-top: 9%;
+    padding-right: 9%;
+    z-index: -1;
 }
 
 .phone-image {
     max-width: 60%;
-      position: absolute;
+    position: absolute;
     margin-left: 40%;
     margin-top: 2%;
+} */
+
+
+/* here are changed divs */
+
+
+/* for lappy view */
+
+@media screen and (min-width: 992px) {
+    .fuckin-img {
+        transform: rotate(25deg);
+        max-width: 60%;
+        margin-left: 30%;
+    }
+    .div-left {
+        text-align: left !important;
+    }
 }
+
+
+/* for tab n mobile view */
+
+.fuckin-img {
+    max-width: 60%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.div-left {
+    text-align: center;
+}
+
+
+/* features section, that floralwhite one */
 
 #features {
     padding: 7% 13%;
     background-color: floralwhite;
-    position: relative;
-    z-index: 1;
+    /* position: relative; */
+    /* z-index: 1; */
 }
 
 
