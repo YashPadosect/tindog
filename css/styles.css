@@ -93,7 +93,10 @@ h1 {
 
 /* for lappy view */
 
-@media screen and (min-width: 992px) {
+
+/* @media screen and (min-width: 992px) { */
+
+@media (min-width: 992px) {
     .fuckin-img {
         transform: rotate(25deg);
         max-width: 60% !important;
@@ -105,7 +108,7 @@ h1 {
     .div-left {
         text-align: left !important;
     }
-    .container-fluid {}
+    /* .container-fluid {} */
 }
 
 
@@ -238,22 +241,29 @@ li {
 }
 
 #cta {
-    padding: 7% 13%;
+    color: floralwhite;
+    padding: 7% 20%;
     text-align: center;
     background-color: #FF4C68;
 }
 
 #footer {
     color: floralwhite;
-    padding-bottom: 2%;
-    margin: auto;
+    /* color: black; */
+    text-align: center;
+    padding: 5% 15%;
 }
 
-.final-text {
-    /* margin: auto; */
-    text-align: end;
+.footer-icons {
+    margin: 3% 2%;
+}
+
+
+/* .final-text {
+    margin: auto;
+    text-align: center;
     padding-top: 4%;
     margin-bottom: 0;
     padding-bottom: 0;
     margin-right: 1%;
-}
+} */
