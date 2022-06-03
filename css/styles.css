@@ -13,7 +13,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 13%;
+    padding: 3% 13% 9%;
 }
 
 .header {
@@ -96,12 +96,16 @@ h1 {
 @media screen and (min-width: 992px) {
     .fuckin-img {
         transform: rotate(25deg);
-        max-width: 60%;
-        margin-left: 30%;
+        max-width: 60% !important;
+        margin: 0% !important;
+        margin-left: 5% !important;
+        position: absolute !important;
+        /* z-index: -1; */
     }
     .div-left {
         text-align: left !important;
     }
+    .container-fluid {}
 }
 
 
@@ -111,6 +115,7 @@ h1 {
     max-width: 60%;
     margin-left: 20%;
     margin-top: 10%;
+    position: static;
 }
 
 .div-left {
@@ -123,8 +128,8 @@ h1 {
 #features {
     padding: 7% 13%;
     background-color: floralwhite;
-    /* position: relative; */
-    /* z-index: 1; */
+    position: relative;
+    z-index: 1;
 }
 
 
